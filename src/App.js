@@ -1,19 +1,13 @@
 import Calculator from "./components/Calculator";
+import './App.css';
+
 
 function App() {
-  return (
-    <div
-      style={{
-        display: "flex",
-        height: "100%",
-        justifyContent: "center",
-        alignItems: "center",
-        minHeight: "100vh",
-      }}
-    >
-      <Calculator />
-    </div>
-  );
+    return (
+        <div className='calculator-wrapper'>
+            <Calculator />
+        </div>
+    );
 }
 
 export default App;
